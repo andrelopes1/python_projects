@@ -30,4 +30,4 @@ print("Average Daily Revenue:", average_daily_revenue)
 
 # Step 5: Find haircuts under $30
 cuts_under_30 = [hairstyles[i] for i in range(len(new_prices)) if new_prices[i] < 30]
-print("Cuts under $30:", cuts_under_30)
+print("Cuts under $30:", cuts_under_
