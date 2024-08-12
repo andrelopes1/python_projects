@@ -8,3 +8,12 @@ poster_price = 2.00
 max_price = max(9.75, 15.50, 5.99, 2.00)
 
 print(max_price)
+
+
+min_price = min(9.75, 15.50, 5.99, 2.00)
+
+print(min_price)
+
+
+rounded_price = round(tshirt_price, 1)
+print(rounded_price)
