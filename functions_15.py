@@ -1,13 +1,6 @@
-def common_letters(string_one, string_two):
-    # Convert strings to sets to get unique letters
-    set_one = set(string_one)
-    set_two = set(string_two)
-    
-    # Find the common letters using intersection
-    common = set_one.intersection(set_two)
-    
-    # Convert the set to a list
-    return list(common)
+def print_some_characters(word):
+  for i in range(len(word)):
+    if i % 2 == 0:
+      print(word[i])
 
-# Example usage
-print(common_letters("banana", "cream"))  # Output will be ['a']
+print_some_characters("watermelon")
